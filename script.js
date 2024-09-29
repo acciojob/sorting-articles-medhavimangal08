@@ -7,7 +7,7 @@ const sortedBands = bands.sort((a, b) => {
 let body=document.querySelector("body")
 
 let unorderlist=document.createElement("ul")
-unorderlist.id="band"
+unorderlist.id="bands"
 body.append(unorderlist)
 
 for(let i of sortedBands){
